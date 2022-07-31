@@ -55,7 +55,10 @@ img{
 .weight-600{
     font-weight: 600;
 }
-
+.hover-text:hover{
+    color: var(--cyan);
+    cursor: pointer;
+}
 .nft-preview-container{
     margin: 4rem auto;
     width: 32.7rem;
@@ -65,13 +68,31 @@ img{
     border-radius: 1.5rem;
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
 }
-.nft-image{
+.nft-image-container{
     width: 27.8rem;
     height: 27.8rem;
 }
-.nft-image img{
+.nft-image{
     border-radius: 0.8rem;
 }
+.view_nft{
+    position: absolute;
+    width: 27.8rem;
+    height: 27.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.8rem;
+    opacity: 1;
+}
+.view_nft:hover{
+    cursor: pointer;
+    background-color: rgba(0, 255, 248, 0.5);
+    background-image: url('./images/icon-view.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .nft-info__price-date{
     display: flex;
     justify-content: space-between;
