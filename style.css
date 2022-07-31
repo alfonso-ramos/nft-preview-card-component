@@ -58,6 +58,7 @@ img{
 .hover-text:hover{
     color: var(--cyan);
     cursor: pointer;
+    transition: 500ms;
 }
 .nft-preview-container{
     margin: 4rem auto;
@@ -89,10 +90,10 @@ img{
     cursor: pointer;
     background-color: rgba(0, 255, 248, 0.5);
     background-image: url('./images/icon-view.svg');
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+    transition: 500ms;
 }
-
 .nft-info__price-date{
     display: flex;
     justify-content: space-between;
